@@ -28,5 +28,3 @@ day_plot <- ggplot(df2, aes(y=RUC,x=time, color = Total_Number_Incidents, size =
   geom_hline(yintercept = 0.122)
 
 ggarrange(day_plot, year_plot, widths = c(1.5,2))
-
-       
